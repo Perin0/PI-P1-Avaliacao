@@ -1,0 +1,51 @@
+body{
+    background-color: #fdfffc;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 12px;
+    padding: 2rem;
+    width: 18%;
+    box-shadow: 3px 3px 10px hsla(0, 0%, 10%, 0.5);
+    background-color: #fdfffc;
+}
+.row{
+    padding: 0.25rem;
+}
+.btn1{
+    background-color: #235789;
+    color: #fdfffc
+}
+.btn2{
+    background-color: #c1292e;
+    color: #fdfffc
+}
+.btn3{
+    background-color: #f1d302;
+    color: #161925
+}
+.btn4{
+    background-color: #161925;
+    color: #fdfffc
+}
+
+.btn1:hover{
+    background-color: hsl(209, 49%, 44%);
+    color: #fdfffc
+}
+.btn2:hover{
+    background-color: hsl(358, 67%, 52%);
+    color: #fdfffc
+}
+.btn3:hover{
+    background-color: hsl(52, 81%, 60%);
+    color: #161925
+}
+.btn4:hover{
+    background-color: hsl(228, 15%, 22%);
+    color: #fdfffc
+}
